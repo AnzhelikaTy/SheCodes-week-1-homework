@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 1 Homework</title>
+    <style>
+      h1 {
+        color: #1a64d6;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .weather-emoji {
+        text-align: center;
+        font-size: 30px;
+      }
+      h2 {
+        font-size: 34px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .week-day {
+        font-weight: bold;
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        max-width: 400px;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        transition: all 200ms ease-in-out;
+      }
+      .week-day:hover {
+        background-color: #fffbef;
+
+        border: 0px solid transparent;
+        border-radius: 10px;
+      }
+
+      .temperature {
+        font-size: 18px;
+        font-family: monospace;
+        margin: 20px;
+      }
+      .night-temperature {
+        font-weight: normal;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        padding: 15px 20px;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 16px;
+        background: #1a64d6;
+        border: 1px solid #1a64d6;
+        border-radius: 30px;
+        box-shadow: 1px 1px 1px rgb(216, 215, 215);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background: #ffffff;
+        color: #1a64d6;
+        cursor: pointer;
+      }
+      .coded-by {
+        text-align: center;
+        font-family: monospace;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="weather-emoji">⛅</div>
+    <h1>Currently 21° in Tokyo</h1>
+    <h2><span class="night-temperature">13° /</span> 23°</h2>
+    <div class="week-day">
+      🌧️Tomorrow
+      <div class="temperature">
+        <span class="night-temperature">10° / </span> 22°
+      </div>
+    </div>
+    <div class="week-day">
+      ☁️ Saturday
+      <div class="temperature">
+        <span class="night-temperature">15° /</span> 17°
+      </div>
+    </div>
+    <div class="week-day">
+      ☀️ Sunday
+      <div class="temperature">
+        <span class="night-temperature">25° /</span> 28°
+      </div>
+    </div>
+    <button>Change city</button>
+    <div class="coded-by">Coded by Anzhelika Susemcik</div>
+  </body>
+</html>
